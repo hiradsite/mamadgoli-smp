@@ -6,7 +6,7 @@ RUN apt-get update \
     && apt-get install -y curl \
     && rm -rf /var/lib/apt/lists/*
 
-RUN curl -fL "https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar" \
+RUN curl -fL "https://fill-data.papermc.io/v1/objects/e67da4851d08cde378ab2b89be58849238c303351ed2482181a99c2c2b489276/paper-1.16.5-794.jar" \
     -o paper.jar
 
 COPY . .
