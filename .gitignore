@@ -1,0 +1,9 @@
+paper.jar
+logs/
+cache/
+crash-reports/
+*.log
+world/
+world_nether/
+world_the_end/
+.DS_Store
