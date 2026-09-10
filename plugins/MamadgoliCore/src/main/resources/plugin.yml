@@ -1,0 +1,14 @@
+name: MamadgoliCore
+version: 1.0.0
+main: ir.mamadgoli.core.MamadgoliCore
+api-version: 1.16
+author: Hirad Valizadeh
+description: Core systems for MAMADGOLI SMP
+commands:
+  mg:
+    description: MamadgoliCore administration command
+    usage: /mg <info|reload|setspawn>
+    permission: mamadgoli.admin
+permissions:
+  mamadgoli.admin:
+    default: op

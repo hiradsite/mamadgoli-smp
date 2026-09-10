@@ -1,0 +1,23 @@
+server-name: MAMADGOLI SMP
+spawn:
+  world: world
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+regions:
+  spawn-radius: 150
+  survival-border: 12000
+  afk-size: 150
+rtp:
+  min-distance: 500
+  max-distance: 5500
+  cooldown-seconds: 30
+website-api:
+  enabled: false
+  base-url: https://api.example.com
+  api-key: CHANGE_ME
+  timeout-ms: 5000
+economy:
+  starting-balance: 100.0
